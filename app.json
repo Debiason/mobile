@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "mobile",
+    "name": "devresiduo",
     "slug": "mobile",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +12,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#c2ddba"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +21,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.debiason.devresiduo",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.debiason.devresiduo",
+      "versionCode": 1
   }
+}
 }
